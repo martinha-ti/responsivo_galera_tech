@@ -1,0 +1,70 @@
+* {
+    margin: 0 auto;
+}
+
+main {
+    position: relative;
+    width: 80%;
+    background-color: #d0ffa1;
+    height: 1000px;
+    /*auto*/
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    background-color: #d2a1ff;
+}
+nav {
+    width: 100%;
+    height: 100px;
+    background-color: #ff0beb;
+}
+#a {
+    width: 80%;
+    height: 300px;
+    background-color: #57e5c4;
+    float: left; /* "flutua" para a esquerda*/
+}
+aside {
+    width: 20%;
+    height: 700px;
+    background-color: #0008ff;
+    float: right; /*"flutua" para a direita*/
+}
+#b {
+    width: 40%;
+    height: 200px;
+    background-color: #f6ff00;
+    float: left;
+}#c {
+    width: 40%;
+    height: 200px;
+    background-color: #ff8102;
+    float: left;
+}#d {
+    width: 80%;
+    height: 200px;
+    background-color: #9c57e5;
+    float: left;
+}footer {
+    width: 100%;
+    height: 100px;
+    background-color: #bae557;
+    float: left;
+}
+/*responsiviidade - mínimo de tela em 600px*/
+@media only screen and (max-width: 600px){
+    aside{ display: none;} /* display none é para nao aparecer*/
+    #a{ width: 100%; background-color: #ff0000;}
+    #b{ width: 100%; }
+    #c{ width: 100%; }
+    #d{ width: 100%; }
+}
+/*orientação de tela
+landscape - paisagem
+portrait - retrato
+*/
+@media only screen and (orientation: landscape){
+    body{ background-color: #0f0f0f;}
+}
