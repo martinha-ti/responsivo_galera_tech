@@ -55,6 +55,7 @@ aside {
 }
 /*responsiviidade - mínimo de tela em 600px*/
 @media only screen and (max-width: 600px){
+    main{width: 100%;}
     aside{ display: none;} /* display none é para nao aparecer*/
     #a{ width: 100%; background-color: #ff0000;}
     #b{ width: 100%; }
